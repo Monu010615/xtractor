@@ -10,7 +10,9 @@ PREMIUM_LOGS = Config.PREMIUM_LOGS
 
 import subprocess
 import datetime
-from Extractor import app
+#from Extractor import app
+from modules.my_extractor import app
+
 from pyrogram import filters
 from subprocess import getstatusoutput
 log_channel = PREMIUM_LOGS
